@@ -5,6 +5,7 @@ body {
   padding-top: 50px;
   background-color: brown;
   color: white;
+  scroll-behavior: smooth;
 }
 
 #navbar {
