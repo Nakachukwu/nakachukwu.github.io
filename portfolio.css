@@ -10,7 +10,7 @@ body {
 #navbar {
   width: 100%;
   display: flex;
-  background-color: #333;
+  background-color: black;
   justify-content: flex-end;
   position: fixed;
   top: 0px;
@@ -38,7 +38,8 @@ section {
   height: 100vh;
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .project-tile {
@@ -54,16 +55,79 @@ img {
 }
 
 #Contact {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  background-color: palevioletred;
 }
 
-#projects {
-  background-color: aliceblue;
+#project {
+  height: 100vh;
+  color: azure;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.caption {
+  display: inline-block;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.project-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 #Contact {
-  background-color: palevioletred;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.h1 {
+  text-align: center;
+}
+
+h4::before {
+  content: "\f09b";
+}
+
+.btn {
+  padding-right: 5px;
+}
+
+.contact-details {
+  transition: transform 0.3s ease-in;
+  font-size: 20px;
+  transition-duration: 0.3s;
+  transition-delay: 0s;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.fab::before {
+  content: " ";
+}
+
+.project-header {
+  padding-top: 50px;
 }
