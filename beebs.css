@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 20px;
+  padding: 0px 20px 0px 20px;
+  background-color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  padding-right: 50px;
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainsection {
+  /*border: 2px solid black;*/
+  width: 100%;
+  height: 400px;
+  margin: 0 0 20px 20px;
+}
+
+.mainsection-left {
+  height: 400px;
+  width: 45%;
+}
+
+.mainsection-right {
+  border: 2px solid blu;
+  height: 300px;
+  width: 52%;
+}
+
+.mainsection-left,
+.mainsection-right {
+  float: left;
+  margin: 10px 10px;
+}
+
+.article-right {
+  height: 190px;
+  width: 45%;
+  float: left;
+  margin: 0px 15px 20px 5px;
+}
+
+.text-section-mainsection-left {
+  color: white;
+  font-family: monospace;
+}
+
+.text-section-article1 {
+  color: white;
+  font-family: monospace;
+  margin-left: 10px;
+}
+
+.text-section-article2 {
+  color: white;
+  font-family: monospace;
+  margin-left: 10px;
+}
+.text-section-article3 {
+  color: white;
+  font-family: monospace;
+  margin-left: 10px;
+}
+.text-section-article4 {
+  color: white;
+  font-family: monospace;
+  margin-left: 10px;
+}
+
+.card {
+  position: relative;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+  position: absolute;
+  bottom: 0;
+  padding: 0 20px 20px 20px;
+}
+
+.card-title {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.card-excerpt {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.card-tag {
+  border-left: 2px solid;
+  padding-left: 6px;
+  margin-top: 50px;
+}
+
+.card-overlay {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+}
+
+.card-header {
+  position: absolute;
+  bottom: 0;
+  padding: 0 20px 20px 5px;
+}
+
+.card-topic {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: monospace;
+}
+
+.card-tag-red {
+  border-color: red;
+}
+
+.card-tag-blue {
+  border-color: #47a1d8;
+}
+
+.card-tag-yellow {
+  border-color: yellow;
+}
+
+.card-tag-indigo {
+  border-color: #362e67;
+}
+
+.card-tag-black {
+  border-color: black;
+}
+
+/*
+h3 {
+  position: absolute;
+  top: 0;
+  margin-left: 20px;
+}
+
+*/
+
+.card-news {
+  padding: 0px 30px;
+}
+
+.card-stories {
+  display: flex;
+}
+.card-subtopic {
+  margin-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 100;
+}
+
+.card-images {
+  top: 0;
+  padding: 10px 10px 10px 2px;
+}
+
+/*
+.flbx {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 0px;
+}
+.flbx > div {
+}
+
+
+
+.reel {
+  background-image: url("https://ychef.files.bbci.co.uk/1200x675/p08h02kk.jpg");
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.reel-images {
+  display: flex;
+  height: 50%;
+  width: 50%;
+  justify-content: space-between;
+}
+*/
